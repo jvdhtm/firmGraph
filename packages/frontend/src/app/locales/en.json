@@ -1,0 +1,35 @@
+{
+    "search":"Search",
+    "filters":"filters",
+    "product":{
+        "information":"Information",
+        "name":"Name",
+        "memory":"Memory",
+        "color":"Color",
+        "sap":"SAP ID",
+        "partno":"PartNo",
+        "includeVat":"InclVat",
+        "excludeVat":"ExlcVat",
+        "netPrice":"Net price",
+        "status":"Status",
+        "brand":"Brand",
+        "categoryName":"categori",
+        "line":"Line",
+        "serialNumbertype":"Serialnumber type",
+        "servicePartner":"Service partner",
+        "warrantyPeriod":"Warranty period",
+        "sellingPoints":"försäljningsargument",
+        "whatsInTheBox":"Whats In TheBox",
+        "features":"Specifikationer",
+        "description":"Description",
+        "readmore":"Read more",
+        "serviceRoutine":"Service routine",
+        "networkConnectivity":"Network connectivity",
+        "notset":"",
+        "specification":"specification",
+        "categoryManger":"Category manager"
+        
+    },
+    "product_not_found":"Product not found",
+    "search_not_found":"Sorry, we did not find anything matching your search"
+}
