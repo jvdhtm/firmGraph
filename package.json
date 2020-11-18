@@ -1,0 +1,16 @@
+{
+  "name": "info_graph_firm",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "version": "1.0.0",
+  "description": "providing a graph for a company structure.",
+  "main": "index.js",
+  "repository": "git@github.com:jvdhtm/info_graph_firm",
+  "author": "jvdhtm <jvdhtm@gmail.com>",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+ ]  
+}

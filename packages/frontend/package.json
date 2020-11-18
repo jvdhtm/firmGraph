@@ -1,0 +1,57 @@
+{
+    "name": "varuguiden-frontend",
+    "version": "1.0.0",
+    "license": "proprietary",
+    "proxy": "http://localhost:4000",
+    "scripts": {
+      "watch": "yarn run react-scripts start",
+      "build": "yarn run react-scripts build",
+      "test": "echo 'tests disabled in frontend until working with yarn workspaces'",
+      "disabled-test": "yarn run react-scripts test -- --ci --detectOpenHandles --passWithNoTests",
+      "eject": "yarn run react-scripts eject"
+    },
+    "dependencies": {
+      "@testing-library/jest-dom": "^4.2.4",
+      "@testing-library/react": "^9.3.2",
+      "@testing-library/user-event": "^7.1.2",
+      "@types/classnames": "^2.2.10",
+      "@types/react": "^16.9.0",
+      "@types/react-autosuggest": "^10.0.0",
+      "@types/react-dom": "^16.9.0",
+      "@types/react-router": "^5.1.8",
+      "@types/react-router-dom": "^5.1.5",
+      "classnames": "^2.2.6",
+      "i18next": "^19.7.0",
+      "jest": "^24.9.0",
+      "node-sass": "^4.14.1",
+      "query-string": "v6.13.1",
+      "react": "^16.13.1",
+      "react-app-polyfill": "^1.0.6",
+      "react-autosuggest": "^10.0.2",
+      "react-dom": "^16.13.1",
+      "react-i18next": "^11.7.2",
+      "react-query": "^2.15.4",
+      "react-router-dom": "^5.2.0",
+      "react-scripts": "3.4.3",
+      "ts-jest": "^24.3.0"
+    },
+    "devDependencies": {},
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        "ie 11",
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "ie 11",
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+        
+      ]
+    }
+  }
